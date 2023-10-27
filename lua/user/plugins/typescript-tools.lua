@@ -1,8 +1,8 @@
-return {{
-    "pmizio/typescript-tools.nvim",
-    dependencies = {"nvim-lua/plenary.nvim", "neovim/nvim-lspconfig"},
-    opts = {},
-    config = function()
-      require("typescript-tools").setup()
-    end,
-}}
+return { {
+  "pmizio/typescript-tools.nvim",
+  lazy=false,
+  requires = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+  config = function()
+    require("typescript-tools").setup {}
+  end,
+} }
