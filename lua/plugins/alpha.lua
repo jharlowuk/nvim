@@ -4,17 +4,24 @@ return {
   opts = function()
     local dashboard = require "alpha.themes.dashboard"
     dashboard.section.header.val = {
-      " █████  ███████ ████████ ██████   ██████",
-      "██   ██ ██         ██    ██   ██ ██    ██",
-      "███████ ███████    ██    ██████  ██    ██",
-      "██   ██      ██    ██    ██   ██ ██    ██",
-      "██   ██ ███████    ██    ██   ██  ██████",
-      " ",
-      "    ███    ██ ██    ██ ██ ███    ███",
-      "    ████   ██ ██    ██ ██ ████  ████",
-      "    ██ ██  ██ ██    ██ ██ ██ ████ ██",
-      "    ██  ██ ██  ██  ██  ██ ██  ██  ██",
-      "    ██   ████   ████   ██ ██      ██",
+      [[                                ]],
+      [[             ,,,,,,             ]],
+      [[         o#'9MMHb':'-,o,        ]],
+      [[      .oH":HH$' "' ' -*R&o,     ]],
+      [[     dMMM*""'`'      .oM"HM?.   ]],
+      [[   ,MMM'          "HLbd< ?&H\   ]],
+      [[  .:MH ."\          ` MM  MM&b  ]],
+      [[ . "*H    -        &MMMMMMMMMH: ]],
+      [[ .    dboo        MMMMMMMMMMMM. ]],
+      [[ .   dMMMMMMb      *MMMMMMMMMP. ]],
+      [[ .    MMMMMMMP        *MMMMMP . ]],
+      [[      `#MMMMM           MM6P ,  ]],
+      [[  '    `MMMP"           HM*`,   ]],
+      [[   '    :MM             .- ,    ]],
+      [[    '.   `#?..  .       ..'     ]],
+      [[       -.   .         .-        ]],
+      [[         ''-.oo,oo.-''          ]],
+      [[                                ]],
     }
     dashboard.section.header.opts.hl = "DashboardHeader"
     dashboard.section.footer.opts.hl = "DashboardFooter"
