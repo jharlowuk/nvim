@@ -32,6 +32,9 @@ return {
     },
   },
 
+  -- utility
+  { import = 'astrocommunity.utility.telescope-live-grep-args-nvim' },
+
   -- packs
   { import = 'astrocommunity.pack.typescript' },
 
