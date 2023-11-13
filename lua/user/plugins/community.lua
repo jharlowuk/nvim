@@ -5,6 +5,7 @@ return {
 
   -- editing support
   { import = 'astrocommunity.editing-support.refactoring-nvim' },
+  { import = 'astrocommunity.editing-support.neogen' },
 
   -- motions
   { import = 'astrocommunity.motion.nvim-surround' },
