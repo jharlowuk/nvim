@@ -33,6 +33,9 @@ return {
     },
   },
 
+  -- debugging
+  { import = 'astrocommunity.debugging.nvim-bqf' },
+
   -- utility
   { import = 'astrocommunity.utility.telescope-live-grep-args-nvim' },
 
