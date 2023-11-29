@@ -1,7 +1,15 @@
 return {
   "AstroNvim/astrocommunity",
   -- git
-  { import = 'astrocommunity.git.octo-nvim' },
+  {
+    import = 'astrocommunity.git.octo-nvim',
+    opts = {
+      mappings = {
+        vim.keymap.set("i", "@", "@<C-x><C-o>", { silent = true, buffer = true }),
+        vim.keymap.set("i", "#", "#<C-x><C-o>", { silent = true, buffer = true })
+      },
+    }
+  },
 
   -- editing support
   { import = 'astrocommunity.editing-support.refactoring-nvim' },
