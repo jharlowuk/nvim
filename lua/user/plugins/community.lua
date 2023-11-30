@@ -1,5 +1,7 @@
 return {
   "AstroNvim/astrocommunity",
+  lazy = false, -- ensures mappings/options always work
+
   -- git
   {
     import = 'astrocommunity.git.octo-nvim',
