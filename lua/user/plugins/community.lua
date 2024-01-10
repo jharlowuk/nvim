@@ -52,6 +52,7 @@ return {
   -- packs
   { import = 'astrocommunity.pack.typescript' },
   { import = 'astrocommunity.pack.rust' },
+  { import = 'astrocommunity.pack.python' },
 
   -- workflow
   { import = 'astrocommunity.workflow.hardtime-nvim' },
