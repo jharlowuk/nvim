@@ -1,0 +1,48 @@
+{
+  "New PR template": {
+    "prefix": "newpr",
+    "body": [
+      "### Overview",
+      "${0}",
+      "",
+      "### Acceptance criteria",
+      "```Gherkin Syntax",
+      "WHEN",
+      "THEN ",
+      "```",
+      "",
+      "### Changes[^1]",
+      "`gcfb`",
+      "",
+      "### Documentation",
+      "- [${2:ENG-}](https://benchco.atlassian.net/browse/${2:ENG-})",
+      "",
+      "### TODO",
+      "<details>",
+      "<summary><b>Click to review TODO history</b></summary>",
+      "",
+      "- [ ] ",
+      "- [ ] Automated tests written",
+      "- [ ] Deployed and tested",
+      "- [ ] Self review completed",
+      "",
+      "</details>",
+      "",
+      "### How to Test",
+      "```sh",
+      "${3:example}",
+      "```",
+      "",
+      "[^1]: This changeset was automatically generated from the commit history and then pruned to reflect the `HEAD`"
+    ],
+    "description": "Generic template for a new PR, with all the neccessary sections"
+  },
+  "Github Blockquote": {
+    "prefix": "ghbq",
+    "body": [
+      "> [!${1|NOTE,TIP,CAUTION,WARNING,IMPORTANT|}]  ",
+      "> ${0}"
+    ],
+    "description": "Fancy-formatted blockquote for Github markdown"
+  }
+}
