@@ -54,6 +54,7 @@ return {
   { import = 'astrocommunity.pack.rust' },
   { import = 'astrocommunity.pack.python' },
   { import = 'astrocommunity.pack.json' },
+  { import = 'astrocommunity.pack.markdown' },
 
   -- workflow
   { import = 'astrocommunity.workflow.hardtime-nvim' },
