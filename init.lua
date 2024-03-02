@@ -20,4 +20,6 @@ if astronvim.default_colorscheme then
   end
 end
 
+require("luasnip.loaders.from_vscode").lazy_load({ paths = { "./lua/user/snippets" } })
+
 require("astronvim.utils").conditional_func(astronvim.user_opts("polish", nil, false), true)

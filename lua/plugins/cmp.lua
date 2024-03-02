@@ -83,6 +83,13 @@ return {
           ["<C-y>"] = cmp.config.disable,
           ["<C-e>"] = cmp.mapping { i = cmp.mapping.abort(), c = cmp.mapping.close() },
           ["<CR>"] = cmp.mapping.confirm { select = false },
+          ["<C-l>"] = cmp.mapping(function(fallback)
+            if luasnip.choice_active() then
+              luasnip.change_choice(1)
+            else 
+              fallback() 
+            end
+          end, { "i", "s" }),
           ["<Tab>"] = cmp.mapping(function(fallback)
             if cmp.visible() then
               cmp.select_next_item()
