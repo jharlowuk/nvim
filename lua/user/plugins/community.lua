@@ -16,6 +16,7 @@ return {
   -- editing support
   { import = 'astrocommunity.editing-support.refactoring-nvim' },
   { import = 'astrocommunity.editing-support.neogen' },
+  { import = 'astrocommunity.editing-support.nvim-devdocs' },
 
   -- motions
   { import = 'astrocommunity.motion.nvim-surround' },
@@ -24,6 +25,7 @@ return {
 
   -- completion
   { import = "astrocommunity.completion.copilot-lua" },
+
   { -- further customize the options set by the community
     "zbirenbaum/copilot.lua",
     opts = {
@@ -50,11 +52,15 @@ return {
   { import = 'astrocommunity.utility.telescope-live-grep-args-nvim' },
 
   -- packs
+  { import = 'astrocommunity.pack.bash' },
   { import = 'astrocommunity.pack.typescript' },
   { import = 'astrocommunity.pack.rust' },
   { import = 'astrocommunity.pack.python' },
   { import = 'astrocommunity.pack.json' },
   { import = 'astrocommunity.pack.markdown' },
+
+  -- markdown and latext
+  { import = 'astrocommunity.markdown-and-latex.glow-nvim' },
 
   -- workflow
   { import = 'astrocommunity.workflow.hardtime-nvim' },
