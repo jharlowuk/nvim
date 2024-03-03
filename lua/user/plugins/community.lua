@@ -18,6 +18,10 @@ return {
   { import = 'astrocommunity.editing-support.neogen' },
   { import = 'astrocommunity.editing-support.nvim-devdocs' },
 
+  -- lsp
+  { import = 'astrocommunity.lsp.lsp-signature-nvim' },
+  { import = 'astrocommunity.lsp.lsp-inlayhints-nvim' },
+
   -- motions
   { import = 'astrocommunity.motion.nvim-surround' },
   { import = 'astrocommunity.motion.leap-nvim' },
