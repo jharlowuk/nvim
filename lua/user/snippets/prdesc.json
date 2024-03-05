@@ -12,7 +12,11 @@
       "```",
       "",
       "### Changes[^1]",
-      "`gcfb`",
+      "Remember to update the base branch if not on `main`",
+      "```sh",
+      "gh pr edit -B",
+      "```",
+      "Then run `gcfb`",
       "",
       "### Documentation",
       "- [${2:ENG-}](https://benchco.atlassian.net/browse/${2:ENG-})",
@@ -33,9 +37,20 @@
       "${3:example}",
       "```",
       "",
-      "[^1]: This changeset was automatically generated from the commit history and then pruned to reflect the `HEAD`"
+      "[^1]: This changeset was automatically extracted from the commit history and then pruned to reflect the `HEAD`, no AI was used."
     ],
     "description": "Generic template for a new PR, with all the neccessary sections"
+  },
+  "Draft PR": {
+    "prefix": "draftpr",
+    "body": [
+      "> [!NOTE] ",
+      "> This pull request is currently in **draft**. Please feel free to leave a review, but please note:",
+      "> - This is not complete code and you may need to re-review a lot of changes",
+      "> - I will automaticlly reject any approval you leave when it exists draft",
+      " "
+    ],
+    "description": "To mark to collaborators that they may waste their time reviewing a draft PR"
   },
   "Github Blockquote": {
     "prefix": "ghbq",
