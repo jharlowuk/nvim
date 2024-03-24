@@ -12,6 +12,18 @@
       {
         "language": "octo",
         "path": "./prcom.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./prdesc.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./prcom.json"
+      },
+      {
+        "language": "ts",
+        "path": "typescript.json"
       }
     ]
   }
