@@ -22,7 +22,7 @@
         "path": "./prcom.json"
       },
       {
-        "language": "ts",
+        "language": "typescript",
         "path": "typescript.json"
       }
     ]

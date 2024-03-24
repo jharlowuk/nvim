@@ -1,7 +1,7 @@
 {
   "Typescript Class": {
     "prefix": [
-      "typescript class"
+      "typescriptclass"
     ],
     "body": "/**\n * ${1:What is the class's single responsibility?}${2:\n * @remarks}\n *\n * ${3:When should use use the class? What performance benefits, functionality, or other magical power does it confer upon you?}\n *\n * * ${4:When shouldn't you use the class?}\n *\n * * ${5:What states does this class furnish?}\n *\n * * ${6:What behaviors does this class furnish?}\n *\n * * ${7:Can you inject dependencies into this class?}\n *\n * * ${8:Are there any situations where it makes sense to extend this class, rather than inject dependencies into it?}\n *\n * * ${9:How does the code in this class work?}\n *${10:\n * @example\n * ```typescript\n *    //example of how to use this class here\n * ```\n *}\n * ${11:@alpha }${12:@beta }${13:@eventProperty }${14:@experimental }${15:@internal }${16:@override }${17:@packageDocumentation }${18:@public }${19:@readonly }${20:@sealed }${21:@virtual}\n */\nclass ${22:ClassName} {\n\n\t// !Static Methods\n\n\t// !Private (and/or readonly) Properties\n\n\t// !Constructor Function\n\tconstructor(){}\n\n\t// !Getters and Setters\n\n\t// !Public Instance Methods\n\n\t// !Private Subroutines\n\n}",
     "description": "Stub a Typescript Class."
@@ -131,5 +131,5 @@
     ],
     "body": "\n* ${1:@alpha }${2:@beta }${3:@eventProperty }${4:@experimental }${5:@internal }${6:@override }${7:@packageDocumentation }${8:@public }${9:@readonly }${10:@sealed }${11:@virtual}\n*",
     "description": "Add all of the TSdoc modifier tags to a TSdoc block. Make sure you place this on the last line of the TSdoc block."
-  },
+  }
 }
