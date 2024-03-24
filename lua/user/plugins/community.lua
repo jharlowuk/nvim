@@ -17,7 +17,7 @@ return {
   { import = 'astrocommunity.editing-support.refactoring-nvim' },
   { import = 'astrocommunity.editing-support.neogen' },
   { import = 'astrocommunity.editing-support.nvim-devdocs' },
-
+  
   -- lsp
   { import = 'astrocommunity.lsp.lsp-signature-nvim' },
   { import = 'astrocommunity.lsp.lsp-inlayhints-nvim' },
@@ -29,8 +29,7 @@ return {
 
   -- completion
   { import = "astrocommunity.completion.copilot-lua" },
-
-  { -- further customize the options set by the community
+  { -- further customize copilot
     "zbirenbaum/copilot.lua",
     opts = {
       suggestion = {
