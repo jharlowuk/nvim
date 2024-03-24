@@ -1,4 +1,4 @@
-require("user.commands.git")
+require("user.commands.example")
 
 return {
   colorscheme = 'gruvbox',
