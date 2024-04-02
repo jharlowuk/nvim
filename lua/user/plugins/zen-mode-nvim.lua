@@ -5,7 +5,7 @@ return {
   cmd = "ZenMode",
   opts = {
     window = {
-      backdrop = 0.95,
+      backdrop = 0.,
       width = function() return math.min(150, vim.o.columns * 0.75) end,
       height = 0.9,
       options = {
